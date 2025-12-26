@@ -1,0 +1,1 @@
+使用g++ -o USBManager.exe USBManager_Simple.cpp  -std=c++17 -mwindows  -static -static-libgcc -static-libstdc++  -luser32 -lgdi32 -lcomctl32 -lsetupapi -lcfgmgr32 -lshell32 -lcomdlg32 -ladvapi32编译
